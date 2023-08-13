@@ -1,5 +1,8 @@
 # Vue JS Calculator
 
+![image](https://github.com/igords-goncalves/vuejs-calculator/assets/79734585/08f74701-3279-4461-af60-ba948bb66894)
+
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
