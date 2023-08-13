@@ -1,15 +1,16 @@
 <template>
     <div>
-        <h1 class="text-3xl font-bold text-red-500">Olá Vue!</h1>
+        <h1>Calculator</h1>
+        <Calculator />
     </div>
 </template>
 
 <script>
-export default {
+import Calculator from "./components/Main/Calculator.vue";
 
+export default {
+    components: {
+        Calculator,
+    },
 };
 </script>
-
-<style>
-
-</style>
