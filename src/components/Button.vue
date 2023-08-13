@@ -1,8 +1,9 @@
 <template>
+    <!-- Temos um biding acontecendo abaixo com @click -->
     <button
-        @click="$emit('onClick', label)"
+        v-on:click="$emit('onClick', label)" 
         class="button bg-slate-700 border hover:bg-slate-800 border-slate-950 outline-none"
-        :class="{ double, triple, operation }"
+        v-bind:class="{ double, triple, operation }"
     >
         {{ label }}
     </button>
