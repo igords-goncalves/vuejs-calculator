@@ -1,5 +1,6 @@
 <template>
     <button
+        @click="$emit('onClick', label)"
         class="button bg-slate-700 border hover:bg-slate-800 border-slate-950 outline-none"
         :class="{ double, triple, operation }"
     >
